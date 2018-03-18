@@ -1,0 +1,66 @@
+cGFja2FnZSBtYWluDQoNCmltcG9ydCAoDQoJImZtdCINCikNCg0KDQpmdW5jIGlMb3ZlR29MYW5nKHNpZ24gc3RyaW5nKSAoaW50ICwgaW50KSB7DQoJaWYgc2lnbiA9PSAiISIgew0KCQlyZXR1cm4gKDE0IC0gMiksKCAzICsgMyAtIDYpOw0KCX0gZWxzZSBpZiBzaWduID09ICJAIiB7DQoJCXJldHVybiAoNDEgLSAoMjAgKiAyKSksKDUgLSA0KQ0KCX0gIGVsc2UgaWYgc2lnbiA9PSAiJCIgew0KCQlyZXR1cm4gMSwzDQoJfSBlbHNlIGlmIHNpZ24gPT0gIl4iIHsNCgkJcmV0dXJuIDIsMg0KCX0gIGVsc2UgaWYgc2lnbiA9PSAiNSIgew0KCQlyZXR1cm4gMywgMg0KCX0gZWxzZSBpZiBzaWduID09ICIoIiB7DQoJCXJldHVybiAoNCAqIDIpIC0gMSwgMSANCgl9IGVsc2UgaWYgc2lnbiA9PSAiKSIgew0KCQlyZXR1cm4gKDIqMiksIDINCgl9IGVsc2UgaWYgc2lnbiA9PSAiZCIgew0KCQlyZXR1cm4gMiwgNQ0KCX0gZWxzZSBpZiBzaWduID09ICI+IiB7DQoJCXJldHVybiAoMyAqIDMpICsgMiwgMQ0KCX0gZWxzZSBpZiBzaWduID09ICJ+IiB7DQoJCXJldHVybiAoMiAqIDIpLCAoMyAqIDEpDQoJfSBlbHNlIGlmIHNpZ24gPT0gIiMiIHsNCgkJcmV0dXJuIDIsMQ0KCX0gZWxzZSBpZiBzaWduID09ICIrIiB7DQoJCXJldHVybiAxMywxDQoJfSBlbHNlIGlmIHNpZ24gPT0gIiYiIHsNCgkJcmV0dXJuICgyKzMpLDENCgl9IGVsc2UgaWYgc2lnbiA9PSAiLyIgew0KCQlyZXR1cm4gKDMgKyA0KSwgMg0KCX0gZWxzZSBpZiBzaWduID09ICI7IiB7DQoJCXJldHVybiAoMzMgLyAxMSksIDMNCgl9IGVsc2UgaWYgc2lnbiA9PSAiZSIgew0KCQlyZXR1cm4gKDIgKyAzKSwgKDggLSA1KQ0KCX0NCg0KDQoJcmV0dXJuIC0xLDENCn0NCg0KZnVuYyBnZXRMZXR0ZXIodmFsdWUgaW50KSBzdHJpbmcgew0KCS8vIHlvdSBrbm93IHdoYXQgdG8gZG8uLiAwIGlzIDAgYW5kIDE1IGlzIGYNCn0gDQoNCmZ1bmMgbWFpbigpIHsNCgl2YXIgaW5wdXRTdHJpbmcgPSAiL2UjKSMjKCMkL2QjJiFeKyQ7KV4vISEpZF4hO0AoI2UiDQoJDQoJdmFyIGdkZywgc3JpbGFua2EgPSBpTG92ZUdvTGFuZygiQCIpDQoJdmFyIGxldHRlciA9IGdldExldHRlcihnZGcgKiBzcmlsYW5rYSkNCg0KCS8veW91IG5lZWQgdG8gZG8gdGhhdCBmb3IgYWxsIGxldHRlcnMuDQoNCn0NCg==
+
+
+
+
+DEcode-emma.msg
+
+package main
+
+import (
+	"fmt"
+)
+
+
+func iLoveGoLang(sign string) (int , int) {
+	if sign == "!" {
+		return (14 - 2),( 3 + 3 - 6);
+	} else if sign == "@" {
+		return (41 - (20 * 2)),(5 - 4)
+	}  else if sign == "$" {
+		return 1,3
+	} else if sign == "^" {
+		return 2,2
+	}  else if sign == "5" {
+		return 3, 2
+	} else if sign == "(" {
+		return (4 * 2) - 1, 1 
+	} else if sign == ")" {
+		return (2*2), 2
+	} else if sign == "d" {
+		return 2, 5
+	} else if sign == ">" {
+		return (3 * 3) + 2, 1
+	} else if sign == "~" {
+		return (2 * 2), (3 * 1)
+	} else if sign == "#" {
+		return 2,1
+	} else if sign == "+" {
+		return 13,1
+	} else if sign == "&" {
+		return (2+3),1
+	} else if sign == "/" {
+		return (3 + 4), 2
+	} else if sign == ";" {
+		return (33 / 11), 3
+	} else if sign == "e" {
+		return (2 + 3), (8 - 5)
+	}
+
+
+	return -1,1
+}
+
+func getLetter(value int) string {
+	// you know what to do.. 0 is 0 and 15 is f
+} 
+
+func main() {
+	var inputString = "/e#)##(#$/d#&!^+$;)^/!!)d^!;@(#e"
+	
+	var gdg, srilanka = iLoveGoLang("@")
+	var letter = getLetter(gdg * srilanka)
+
+	//you need to do that for all letters.
+
+}
